@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAspNetMVC03", "ProjetoAspNetMVC03\ProjetoAspNetMVC03.csproj", "{E78AB4B9-924F-4B52-BEAF-1EB81442449B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Layer", "1 - Presentation Layer", "{C333DE65-9D59-4F24-8F48-23E1E2916D7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Repository Layer", "2 - Repository Layer", "{881AD849-1E24-47CA-BD65-099871EBA834}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAspNetMVC03.Data", "ProjetoAspNetMVC03.Data\ProjetoAspNetMVC03.Data.csproj", "{FAB8070A-A3CE-4511-A0B7-FB365F041607}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Reports Layer", "3 - Reports Layer", "{04BA1635-82C1-4ECD-B03E-7308EDDD22EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAspNetMVC03.Reports", "ProjetoAspNetMVC03.Reports\ProjetoAspNetMVC03.Reports.csproj", "{C9FAF788-377C-444B-ACEC-FEFDF307C567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Messages Layer", "4 - Messages Layer", "{AE9F7DBF-3806-42A9-9262-EBB7AA84DED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoAspNetMVC03.Messages", "ProjetoAspNetMVC03.Messages\ProjetoAspNetMVC03.Messages.csproj", "{3C058998-76DA-4D67-9F8C-AFC5BD0CDD0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E78AB4B9-924F-4B52-BEAF-1EB81442449B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78AB4B9-924F-4B52-BEAF-1EB81442449B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78AB4B9-924F-4B52-BEAF-1EB81442449B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78AB4B9-924F-4B52-BEAF-1EB81442449B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB8070A-A3CE-4511-A0B7-FB365F041607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB8070A-A3CE-4511-A0B7-FB365F041607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB8070A-A3CE-4511-A0B7-FB365F041607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB8070A-A3CE-4511-A0B7-FB365F041607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FAF788-377C-444B-ACEC-FEFDF307C567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FAF788-377C-444B-ACEC-FEFDF307C567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FAF788-377C-444B-ACEC-FEFDF307C567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FAF788-377C-444B-ACEC-FEFDF307C567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C058998-76DA-4D67-9F8C-AFC5BD0CDD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C058998-76DA-4D67-9F8C-AFC5BD0CDD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C058998-76DA-4D67-9F8C-AFC5BD0CDD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C058998-76DA-4D67-9F8C-AFC5BD0CDD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E78AB4B9-924F-4B52-BEAF-1EB81442449B} = {C333DE65-9D59-4F24-8F48-23E1E2916D7A}
+		{FAB8070A-A3CE-4511-A0B7-FB365F041607} = {881AD849-1E24-47CA-BD65-099871EBA834}
+		{C9FAF788-377C-444B-ACEC-FEFDF307C567} = {04BA1635-82C1-4ECD-B03E-7308EDDD22EF}
+		{3C058998-76DA-4D67-9F8C-AFC5BD0CDD0F} = {AE9F7DBF-3806-42A9-9262-EBB7AA84DED9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C295CC0-4359-4808-85BC-5E2F62269685}
+	EndGlobalSection
+EndGlobal
